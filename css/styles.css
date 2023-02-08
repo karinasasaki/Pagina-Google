@@ -1,0 +1,154 @@
+html{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+body{
+    margin: 0;
+}
+nav{
+    margin-top: 18px;
+    padding: 0 20px;
+    text-align: right;
+}
+
+nav a{
+    padding: 0 10px;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.GoogleApps{
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+}
+
+#btn-login{
+    color: #FFF;
+    background-color: #1a73e8;
+    padding: 9px 23px;
+    border-radius: 4px;
+    margin-left: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#btn-login:hover{
+    background-color: #1B66C9;
+    text-decoration: none;
+}
+
+main{
+    text-align: center;
+}
+
+#google-logo{
+    padding-top: 6%;
+    margin-bottom: 25px;
+    cursor: auto;
+}
+
+form{
+    position: relative;
+}
+
+input[type=text]{
+    width: 38vw;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0 50px;
+}
+
+input[type=text]:hover{
+    box-shadow: 0 0 5px #DDD;
+}
+
+#icon-search, #icon-key, #icon-mic, #icon-cam{
+    height: 20px;
+    top: 11px;
+    position: absolute;
+}
+
+#icon-search{
+    height: 16px;
+    left: 32%;
+    cursor: auto;
+}
+
+#icon-key{
+    right: 37%;
+}
+
+#icon-mic{
+    right: 34.5%;
+}
+
+#icon-cam{
+    right: 32%;
+}
+
+main div{
+    margin-top: 20px;
+}
+input[type=submit]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    height: 34px;
+    padding: 0 16px;
+    font-size: 14px;
+    margin: 11px 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    border-color: #c1c1c1;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.inline{
+    display: inline-block;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+.brasil{
+    padding: 15px 15px;
+}
+
+footer a{
+    padding: 15px 14px;
+    text-decoration: none;
+    color: #70757a;
+}
+
+footer div{
+    margin: 0 15px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+}
